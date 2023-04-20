@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+.head {
+    text-transform: uppercase;
+}
+
+.tag {
+    text-decoration: none;
+    color: #6e6b6b;
+    transition: 0.5s;
+}
+
+
+.tag :hover {
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    padding-right: 25px;
+    transition: 0.5s;
+
+   
+}
+
+.hello .form-control:focus {
+    border-color: #0e0f0f;
+    box-shadow: none;
+}
+
+.hello .form-select:focus {
+    border-color: #0e0f0f;
+    box-shadow: none;
+}
+
+
